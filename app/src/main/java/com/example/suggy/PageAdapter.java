@@ -41,7 +41,7 @@ public class PageAdapter extends RecyclerView.Adapter<PageAdapter.ViewHolder> {
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            i = itemView.findViewById(R.id.imageView);
+            i = itemView.findViewById(R.id.userImage);
         }
     }
 }
